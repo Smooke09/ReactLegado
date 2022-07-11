@@ -1,10 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SilvaFamily from "./SilvaFamily";
+import Field from "./Field";
 
-ReactDOM.render(
-  <div>
-    <SilvaFamily />
-  </div>,
-  document.getElementById("app")
-);
+ReactDOM.render(<Field initialValue="Teste" />, document.getElementById("app"));
